@@ -26,9 +26,8 @@ git clone https://github.com/MouxiaoHuang/DUL.git
 - Prepare env
 
 ```python
+conda create --name <env_name> python=3.8
 pip install -r requirements.txt
-# or 
-conda install --yes --file requirements.txt
 ```
 
 - Prepare trainset and testset
