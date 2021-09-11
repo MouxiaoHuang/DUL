@@ -1,0 +1,16 @@
+============================================================
+Model for testing Face Recognition performance is:
+ '/home/huangmouxiao.hmx/project/ood/RTS/exp/checkpoints/exp_webface_dul/Backbone_IR_SE_64_DUL_Epoch_22_Batch_19558_Time_2021-09-11-10-13_checkpoint.pth' 
+============================================================
+Face Recognition Performance on different dataset is as shown below:
+============================================================
+LFW :  0.9941666666666666
+CFP_FF :  0.9922857142857142
+CFP_FP :  0.9652857142857142
+AGEDB_30 :  0.9393333333333335
+CALFW :  0.9348333333333333
+CPLFW :  0.8959999999999999
+VGG2_FP :  0.9376000000000001
+============================================================
+Testing finished!
+============================================================
