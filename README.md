@@ -10,6 +10,7 @@ NOTE:
 
 1. *SE-Resnet64 is used as defult backbone in this repo*, you can define others in `./backbone/model_irse.py`
 2. *Training (process)* & *Testing (results)* logs can be found in `./exp/logs/` & `./exp/logs_test/`
+3. *Implementation details are not exactly the same as the original paper*, can be seen in `./config.py`
 
 
 
@@ -31,18 +32,22 @@ pip install -r requirements.txt
 ```
 
 - Prepare trainset and testset
-  - Trainset: [Casia WebFace](https://github.com/ZhaoJ9014/face.evoLVe)
+  - Trainset: [Casia WebFace or MS-Celeb-1M](https://github.com/ZhaoJ9014/face.evoLVe)
   - Testset: [LFW, CFP_FF, CFP_FP, AgeDB, CALFW, CPLFW, VGG2_FP](https://github.com/ZhaoJ9014/face.evoLVe)
 - Training
 
 ```python
 sh ./exp/Exp_webface_DUL.sh
+# or
+sh ./exp/Exp_ms1m_DUL.sh
 ```
 
 - Testing
 
 ```python
 sh ./exp/TestFR_webface_DUL.sh
+# or
+sh ./exp/TestFR_ms1m_DUL.sh
 ```
 
 
