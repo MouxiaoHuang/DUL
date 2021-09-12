@@ -9,8 +9,8 @@ This repo is an ***unofficial*** PyTorch implementation of DUL ([Data Uncertaint
 NOTE: 
 
 1. *SE-Resnet64 is used as defult backbone in this repo*, you can define others in `./backbone/model_irse.py`
-2. *Training (process)* & *Testing (results)* logs can be found in `./exp/logs/` & `./exp/logs_test/`
-3. *Implementation details are not exactly the same as the original paper*, can be seen in `./config.py`
+2. *Training (process)* & *Testing (results)* logs are saved in `./exp/logs/` & `./exp/logs_test/`
+3. *Implementation details are not exactly the same as the original paper*, seen in `./config.py`
 
 
 
