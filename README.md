@@ -52,6 +52,25 @@ sh ./exp/TestFR_ms1m_DUL.sh
 
 
 
+#### Results Report
+
+- Trainset: Casia Webface
+
+|                |  LFW  | CFP_FF | CFP_FP | AgeDB | CALFW | CPLFW | VGG2_FP |
+| :------------: | :---: | :----: | :----: | :---: | :---: | :---: | :-----: |
+| Original paper |   -   |   -    |   -    |   -   |   -   |   -   |    -    |
+|   This repo    | 99.42 | 99.23  | 96.53  | 93.93 | 93.48 | 89.60 |  93.76  |
+
+- Trainset: MS-Celeb-1M
+
+|                           |  LFW  | CFP_FF | CFP_FP | AgeDB | CALFW | CPLFW | VGG2_FP |
+| :-----------------------: | :---: | :----: | :----: | :---: | :---: | :---: | :-----: |
+| Original paper (ResNet64) | 99.78 |   -    | 98.67  |   -   |   -   |   -   |    -    |
+|         This repo         | 99.75 | 99.69  | 98.41  | 98.02 | 95.95 | 92.97 |  95.40  |
+|                           |       |        |        |       |       |       |         |
+
+
+
 #### Thanks & Refs
 
 ---
