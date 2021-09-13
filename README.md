@@ -18,6 +18,10 @@ NOTE:
 
 ---
 
+- Star this repo, plz
+
+  😊
+
 - Clone this repo
 
 ```
