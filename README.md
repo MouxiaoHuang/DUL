@@ -58,6 +58,8 @@ sh ./exp/TestFR_ms1m_DUL.sh
 
 #### Results Report
 
+---
+
 - Trainset: Casia Webface
 
 |                |  LFW  | CFP_FF | CFP_FP | AgeDB | CALFW | CPLFW | VGG2_FP |
