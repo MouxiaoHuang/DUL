@@ -82,3 +82,5 @@ sh ./exp/TestFR_ms1m_DUL.sh
 ---
 
 - [ZhaoJ9014/face.evoLVe](https://github.com/ZhaoJ9014/face.evoLVe)
+- [Ontheway361/dul-pytorch](https://github.com/Ontheway361/dul-pytorch)
+
