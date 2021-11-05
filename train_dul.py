@@ -204,7 +204,7 @@ class DUL_Trainer():
                 features = mu_dul + epsilon * std_dul
                 variance_dul = std_dul**2
 
-                loss_kl = ((variance_dul + mu_dul**2 - torch.log(variance_dul) - 1) * 0.5).mean()
+                loss_kl = ((variance_dul + mu_dul**2 - torch.log(variance_dul) - 1) * 0.5).sum(dim=-1).mean()
                 losses_KL.update(loss_kl.item(), inputs.size(0))
                 loss += self.dul_args.kl_scale * loss_kl
 
