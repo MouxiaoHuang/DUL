@@ -38,6 +38,9 @@ class DUL_Backbone(nn.Module):
         mu_dul = self.mu_dul_backbone(x)
         logvar_dul = self.logvar_dul_backbone(x)
         std_dul = (logvar_dul * 0.5).exp()
+        # std_dul should be restricted between (0, 1) from the original paper definition. However, it doesn't say how to implement.
+        # You could simply clamp it or use zoom, sigmoid, softplus, etc.
+        std_dul = torch.clamp(std_dul, min=1e-8, max=1.0)
         return mu_dul, std_dul
 
 
